@@ -18,12 +18,14 @@ with open ("./data/TSX_etfs_20200404.txt") as file:
     tsx_etfs = [x.strip()+'.TO' for x in file]
 
 # %%
+# Dictionary of ticker objects
 
 d = {}
 for e in tsx_etfs:
     d[e] = yf.Ticker(e)
 
 # %%
+# Exampalr dividend yeild extraction
 
 for key in d:
     try:
