@@ -1,10 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-Created on Wed Mar 25 16:13:38 2020
-
-@author: alex
-"""
+# Created on Wed Mar 25 16:13:38 2020
 
 # %%
 # Packages and Imports
